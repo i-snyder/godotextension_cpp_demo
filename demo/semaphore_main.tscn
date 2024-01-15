@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://biqob21y2tta1"]
+
+[node name="semaphore_main" type="SemaphoreDemo"]

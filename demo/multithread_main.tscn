@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://d1bi57mwacb3f"]
+
+[node name="multithread_main" type="MultithreadingDemo"]

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu5m8wtm68gyc"]
+
+[ext_resource type="Texture2D" uid="uid://cu82n62xs0hf1" path="res://icon.svg" id="1_4x513"]
+
+[node name="Main" type="Node"]
+
+[node name="HelloWorld" type="HelloWorld" parent="."]
+texture = ExtResource("1_4x513")
+centered = false
+offset = Vector2(10, 10)

@@ -1,6 +1,9 @@
-#include "register_types.h"
+#include "register_types.hpp"
 
-#include "HelloWorld.h"
+#include "hello_world.hpp"
+#include "multithreading_demo.hpp"
+#include "mutex_demo.hpp"
+#include "semaphore_demo.hpp"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -14,6 +17,9 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	}
 
 	ClassDB::register_class<HelloWorld>();
+	ClassDB::register_class<MultithreadingDemo>();
+	ClassDB::register_class<MutexDemo>();
+	ClassDB::register_class<SemaphoreDemo>();
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {
