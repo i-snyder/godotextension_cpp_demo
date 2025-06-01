@@ -3,4 +3,4 @@
 
 I had to ignore "godot-cpp/bin/libgodot-cpp.windows.template_debug.x86_64.lib" to keep it from needing GitHub LFS, so make sure to rebuild godot-cpp.
 
-Some more info in this [Godot Forum thread.](https://forum.godotengine.org/t/gdextension-c-async/36756/)
+I contributed to the Godot official documentation "Using multiple threads" by adding C++ examples: [Using multiple threads](https://docs.godotengine.org/en/stable/tutorials/performance/using_multiple_threads.html)
